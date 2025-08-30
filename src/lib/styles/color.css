@@ -1,0 +1,84 @@
+* {
+	-webkit-tap-highlight-color: transparent;
+}
+
+body {
+	color: rgba(255, 255, 255, 0.8);
+	background-color: #111;
+}
+
+body::before {
+	filter: blur(20dvmin) brightness(2) saturate(5);
+	opacity: 0.1;
+	background-position: center;
+	background-image: conic-gradient(
+		from 45deg,
+		#663a6d 52deg,
+		#24425e 65deg,
+		#18665c 120deg 307deg,
+		#345a7f 353deg
+	);
+}
+
+nav {
+	border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
+footer {
+	border-top-color: rgba(255, 255, 255, 0.1);
+}
+
+li::before {
+	color: rgba(255, 255, 255, 0.25);
+}
+
+a {
+	color: inherit;
+	text-decoration-color: rgba(255, 255, 255, 0.25);
+	border-radius: 0.25rem;
+}
+
+@media (hover: hover) {
+	a:hover {
+		color: white;
+		text-decoration-color: rgba(255, 255, 255, 0.5);
+	}
+}
+
+a:focus-visible,
+button:focus-visible {
+	outline: 2px solid rgba(255, 255, 255, 0.25);
+	outline-offset: 0.5rem;
+}
+
+.image {
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+.image::before {
+	border-color: rgba(255, 255, 255, 0.1);
+}
+
+.image .home {
+	filter: brightness(0.9) saturate(1.1) contrast(1.1) hue-rotate(-10deg);
+}
+
+.image .tunes {
+	filter: hue-rotate(-20deg) saturate(1.25) contrast(1.05);
+}
+
+.image .faces {
+	filter: brightness(0.9) saturate(1.25) contrast(0.9);
+}
+
+.image .work {
+	filter: brightness(0.75) saturate(1.5);
+}
+
+.image .contact {
+	filter: hue-rotate(-5deg) brightness(0.9) saturate(0.8) contrast(1.2);
+}
+
+.image .annumford {
+	filter: saturate(1.2) contrast(1.15) brightness(0.9);
+}

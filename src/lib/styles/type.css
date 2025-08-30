@@ -1,0 +1,112 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 3rem;
+	font-weight: 500;
+	letter-spacing: -0.05em;
+	margin-bottom: 0.5rem;
+}
+
+h2 {
+	font-size: 1rem;
+	font-weight: 600;
+	letter-spacing: 0.5em;
+	margin-bottom: 2rem;
+	line-height: 1;
+	padding: 1.5rem 0;
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	text-transform: uppercase;
+}
+
+h2:not(:first-child) {
+	margin-top: 4rem;
+}
+
+h3 {
+	font-size: 1.5rem;
+	font-weight: 500;
+	letter-spacing: -0.01em;
+	margin-bottom: 0.25rem;
+}
+
+h3:not(:first-child) {
+	margin-top: 3rem;
+}
+
+p {
+	max-width: 24rem;
+}
+
+p:not(:last-child) {
+	margin-bottom: 2rem;
+}
+
+a {
+	font-weight: 500;
+	text-decoration-thickness: 1px;
+	text-underline-offset: 0.5rem;
+}
+
+strong {
+	font-weight: 600;
+	color: #fff;
+}
+
+ul {
+	padding: 0;
+	list-style: none;
+}
+
+li {
+	padding: 0;
+}
+
+ul.bullet {
+	padding-left: 0;
+	max-width: 24rem;
+}
+
+ul:not(:last-child) {
+	margin-bottom: 2rem;
+}
+
+ul.bullet li {
+	padding-left: 1rem;
+}
+
+ul.bullet li:not(:last-child) {
+	margin-bottom: 0.5rem;
+}
+
+ul.bullet li::before {
+	content: '•';
+	display: inline-block;
+	width: 1rem;
+	margin-left: -1rem;
+}
+
+ul.bullet.spread li:not(:last-child) {
+	margin-bottom: 2rem;
+}
+
+.date {
+	font-size: 0.75rem;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: 0.25em;
+	opacity: 0.75;
+	line-height: 1.5rem;
+}
+
+p + .date {
+	margin-top: -1.5rem;
+}
+
+blockquote {
+	text-indent: -0.75rem;
+}

@@ -1,0 +1,27 @@
+ul.icons {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1.5rem;
+	align-items: center;
+}
+
+ul.icons li {
+	display: flex;
+	align-items: center;
+}
+
+ul.icons a {
+	display: flex;
+	align-items: center;
+}
+
+ul.icons svg {
+	display: block;
+	width: 2.5rem;
+	height: 2.5rem;
+	fill: rgba(255, 255, 255, 0.75);
+}
+
+ul.icons a:hover svg {
+	fill: rgba(255, 255, 255, 1);
+}
