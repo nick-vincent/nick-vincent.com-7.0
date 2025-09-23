@@ -21,7 +21,7 @@
 
 <div class="left">
 	<div class="image">
-		<enhanced:img class="home" alt="Nick with guitar." src="$lib/images/home-2.jpg?w=1200" />
+		<enhanced:img class="home" alt="Nick" src="$lib/images/home.jpg?w=1200" />
 	</div>
 </div>
 
