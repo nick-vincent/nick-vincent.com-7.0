@@ -41,11 +41,14 @@
 	<p class="date">Dec 2021 – Present</p>
 	<ul class="bullet">
 		<li>
-			Currently using <a href="https://stenciljs.com" rel="external noreferrer" target="_blank"
-				>Stencil</a
+			Currently leveraging AI tools to migrate Market, Square’s shared design system, from <a
+				href="https://stenciljs.com"
+				rel="external noreferrer"
+				target="_blank">Stencil</a
 			>
-			to construct cross‑framework Web&nbsp;Components for Market, Square’s shared design system used
-			across an ever‑increasing multitude of web applications
+			to
+			<a href="https://react.dev" rel="external noreferrer" target="_blank">React</a>, serving an
+			ever-increasing multitude of web applications
 		</li>
 	</ul>
 
